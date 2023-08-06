@@ -1,0 +1,54 @@
+*{margin: 0px;
+padding: 0px;}
+
+.container{width: 400px;
+margin: auto;
+}
+.toodo_head{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    }
+.toodo_head input{
+    
+    width: 88%;
+    padding: 5px;
+}
+.toodo_head span{
+    color: red;
+    font-size: 25px;
+}
+
+
+.toodo_boody{
+    
+   
+    margin-top: 10px;
+}
+
+.toodo_content ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rebeccapurple;
+}
+.toodo_delete samp{
+    color: red;
+    font-size: 17px;
+    line-height: 30px;
+    margin-left: 7px;
+    display: inline-block;
+}
+.toodoitem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.toodo_delete{
+    height: 30px;
+    border-radius: 7px;
+    width: 30px;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
